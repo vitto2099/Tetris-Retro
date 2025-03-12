@@ -1,0 +1,43 @@
+body {
+    background-color: #0f380f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #9bbc0f;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+  }
+  #start-screen {
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+  }
+  #start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #9bbc0f;
+    border: none;
+    color: #0f380f;
+    cursor: pointer;
+  }
+  #game-container {
+    display: none;
+    text-align: center;
+  }
+  canvas {
+    border: 5px solid #9bbc0f;
+    background-color: #306230;
+    display: block;
+    margin: 0 auto;
+  }
+  #score {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  #controls {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  
